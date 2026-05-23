@@ -79,6 +79,16 @@ const AboutSection: React.FC = () => (
               <li>
                 <a
                   className="underline"
+                  href="https://wesleyanargus.com/2025/11/11/wesceleb-greg-joblove-on-visual-effects-at-wesleyan-and-beyond/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Wesleyan Argus WesCeleb Feature
+                </a>
+              </li>
+              <li>
+                <a
+                  className="underline"
                   href="https://www.wesleyan.edu/about/news/2025/02/mag-words-music-and-ai-inside-wesleyans-music-video-production-course.html"
                   target="_blank"
                   rel="noreferrer"

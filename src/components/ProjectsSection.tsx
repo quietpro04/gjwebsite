@@ -167,14 +167,14 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({
     <div id="projects" style={{ transform: `translateY(${translateY}px)` }}>
       <div className="flex flex-col items-center mb-8 gap-2">
         <h2 className="text-6xl font-normal">work</h2>
-        <a
+        {/* <a
           href="https://media.gregjoblove.com/docs/Joblove_Resume-Website_2026.pdf"
           target="_blank"
           rel="noreferrer"
           className="text-sm text-gray-500 underline italic"
         >
           view cv
-        </a>
+        </a> */}
       </div>
 
       {/* Projects list */}

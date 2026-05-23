@@ -17,7 +17,7 @@ function ScrollToTop() {
 
 function App() {
   return (
-    <BrowserRouter basename="/gjwebsite">
+    <BrowserRouter>
       <ScrollToTop />
       <Routes>
         <Route

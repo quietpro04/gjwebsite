@@ -254,7 +254,7 @@ const Hero: React.FC<HeroProps> = ({
               controls
             >
               <source
-                src={`${MEDIA_BASE_URL}/reels/2026_Short_General_v1.webm`}
+                src={`${MEDIA_BASE_URL}/reels/2026_Short_General_v2.webm`}
                 type="video/webm"
               />
               Your browser does not support the video tag.

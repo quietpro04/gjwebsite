@@ -10,11 +10,11 @@ const Reels: React.FC = () => (
     <div className="mx-auto w-full max-[768px]:w-[90%] min-[769px]:max-w-[80%] px-6 md:px-10">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <div className="relative">
-          <span className="absolute -top-6 left-1 text-xl font-bold">VFX</span>
+          <span className="absolute -top-6 left-1 text-xl font-bold">vfx</span>
           <div className="aspect-video w-full bg-gray-200 border-2 border-black overflow-hidden">
             <video className="w-full h-full object-cover" controls>
               <source
-                src={`${MEDIA_BASE_URL}/reels/2024_General_v7.webm`}
+                src={`${MEDIA_BASE_URL}/reels/2026_VFX_v1b.webm`}
                 type="video/webm"
               />
               Your browser does not support the video tag.
@@ -23,12 +23,12 @@ const Reels: React.FC = () => (
         </div>
         <div className="relative">
           <span className="absolute -top-6 left-1 text-xl font-bold">
-            MOGRAPH
+            motion
           </span>
           <div className="aspect-video w-full bg-gray-200 border-2 border-black overflow-hidden">
             <video className="w-full h-full object-cover" controls>
               <source
-                src={`${MEDIA_BASE_URL}/reels/2025_MoGraph_v1.webm`}
+                src={`${MEDIA_BASE_URL}/reels/2026_motion_v1a.webm`}
                 type="video/webm"
               />
               Your browser does not support the video tag.

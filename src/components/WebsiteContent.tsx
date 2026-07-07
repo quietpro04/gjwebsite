@@ -249,7 +249,7 @@ const WebsiteContent: React.FC<WebsiteContentProps> = ({ isVisible }) => {
                 controls
               >
                 <source
-                  src="https://media.gregjoblove.com/reels/2026_Short_General_v2.webm"
+                  src="https://media.gregjoblove.com/reels/2026_Short_General_v3.webm"
                   type="video/webm"
                 />
                 Your browser does not support the video tag.

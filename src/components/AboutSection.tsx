@@ -12,7 +12,7 @@ const AboutSection: React.FC = () => (
         <div className="md:col-span-4">
           <div className="w-full aspect-[3/4] border-2 border-black shadow-md overflow-hidden">
             <img
-              src="https://media.gregjoblove.com/images/Greg_Img_02.webp"
+              src="https://media.gregjoblove.com/images/Greg_Img_04.webp"
               alt="Greg Joblove"
               className="w-full h-full object-cover"
             />
@@ -134,7 +134,7 @@ const AboutSection: React.FC = () => (
         </li>
         <li>
           <Link className="underline" to="/ideas">
-            my I.D.E.A.S. (integrated design, engineering, arts, and scienceses)
+            my I.D.E.A.S. (integrated design, engineering, arts, and sciences)
             portfolio from my time at Wesleyan University.
           </Link>
         </li>

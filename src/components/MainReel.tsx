@@ -51,7 +51,7 @@ const MainReel: React.FC = () => {
         </div>
       </div>
 
-      <div className="body" style={{ paddingTop: "80px" }}>
+<div className="body" style={{ paddingTop: "80px" }}>
         {/* Main Reel */}
         <div
           style={{
@@ -62,7 +62,7 @@ const MainReel: React.FC = () => {
           <div className="aspect-video w-full bg-gray-900 border-2 border-black overflow-hidden">
             <video className="w-full h-full object-cover" controls autoPlay>
               <source
-                src={`${MEDIA_BASE_URL}/reels/2024_General_v7.webm`}
+                src={`${MEDIA_BASE_URL}/reels/2026_Short_General_v3a.webm`}
                 type="video/webm"
               />
               Your browser does not support the video tag.
@@ -70,7 +70,61 @@ const MainReel: React.FC = () => {
           </div>
           <h2 className="text-lg font-bold text-left ml-1 mt-1">2026 REEL</h2>
         </div>
+
+        {/* <h3 className="italic text-4xl mb-6 text-center">↓  more reels ↓</h3> */}
+
+        {/* Secondary Reels */}
+        <div
+          className="flex flex-col sm:flex-row gap-4"
+          style={{
+            maxWidth: "80%",
+            margin: "24px auto 0",
+          }}
+        >
+          <div className="flex-1">
+            <div className="aspect-video w-full bg-gray-900 border-2 border-black overflow-hidden">
+              <video className="w-full h-full object-cover" controls>
+                <source
+                  src={`${MEDIA_BASE_URL}/reels/2026_VFX_v1b.webm`}
+                  type="video/webm"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <h2 className="text-lg font-bold text-left ml-1 mt-1">2026 VFX REEL</h2>
+          </div>
+
+          <div className="flex-1">
+            <div className="aspect-video w-full bg-gray-900 border-2 border-black overflow-hidden">
+              <video className="w-full h-full object-cover" controls>
+                <source
+                  src={`${MEDIA_BASE_URL}/reels/2026_motion_v1a.webm`}
+                  type="video/webm"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <h2 className="text-lg font-bold text-left ml-1 mt-1">2026 MOTION REEL</h2>
+          </div>
+        </div>
+
       </div>
+      <footer className="w-full text-center py-[20px] text-black text-[10px]">
+        <p className="my-[10px]">
+          © {new Date().getFullYear()} Greg Joblove. All rights reserved.
+        </p>
+        <p className="italic my-[10px]">
+          Site designed by me, built by{" "}
+          <a
+            href="https://www.linkedin.com/in/matthewrichc/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline"
+          >
+            Matthew Rich
+          </a>
+        </p>
+      </footer>
     </motion.div>
   );
 };
